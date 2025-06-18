@@ -1,7 +1,8 @@
 {
-    "name": "next-netlify-platform-starter",
+    "name": "emperor-game-by-project-eden",
     "version": "0.1.0",
     "private": true,
+    "packageManager": "pnpm@10.12.1",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -10,6 +11,7 @@
     },
     "dependencies": {
         "@netlify/blobs": "^8.2.0",
+        "@worldcoin/minikit-js": "^1.9.6",
         "blobshape": "^1.0.0",
         "bright": "^0.8.5",
         "markdown-to-jsx": "^7.4.5",
