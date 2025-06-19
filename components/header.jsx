@@ -4,12 +4,12 @@ import projectEdenLogo from 'public/project-eden-logo.png';
 import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'Overview', href: '/' },
+    { linkText: 'Land', href: '/land' },
+    { linkText: 'Production', href: '/production' },
+    { linkText: 'Military', href: '/military' },
+    { linkText: 'Citizens', href: '/citizens' },
+    { linkText: 'Market', href: '/market' }
 ];
 
 export function Header() {
