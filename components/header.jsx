@@ -16,7 +16,7 @@ export function Header() {
     return (
         <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
             <Link href="/">
-                <Image src={projectEdenLogo} alt="Project Eden logo" style="width: 10%; height: auto;"/>
+                <Image src={projectEdenLogo} alt="Project Eden logo" style="width: 10%; height: 10%;"/>
             </Link>
             {!!navItems?.length && (
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
@@ -29,14 +29,7 @@ export function Header() {
                     ))}
                 </ul>
             )}
-            <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden lg:inline-flex lg:ml-auto"
-            >
-                <Image src={githubLogo} alt="GitHub logo" className="w-7" />
-            </Link>
+            
         </nav>
     );
 }
