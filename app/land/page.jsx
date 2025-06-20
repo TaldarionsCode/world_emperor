@@ -7,6 +7,7 @@ export const metadata = {
 };
 
 export default async function Page() {
+    console.log('players', players);
     return (
         <>
             <h1 className="mb-8">Land</h1>
