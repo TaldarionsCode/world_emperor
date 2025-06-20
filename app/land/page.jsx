@@ -14,7 +14,7 @@ export default async function Page() {
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
                     {players.map((item, index) => (
                         <li key={index}>
-                            <span className="text-sm text-gray-500">{item.name} has {item.land}ha land.</span>
+                            <p className="text-sm text-gray-500">{item.name} has {item.land}ha land.</p>
                         </li>
                     ))}
                 </ul>
