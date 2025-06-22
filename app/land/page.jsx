@@ -1,12 +1,15 @@
 import { neon } from '@netlify/neon';
-const sql = neon(); // automatically uses env NETLIFY_DATABASE_URL
-const [players] = await sql`SELECT * FROM players`;
+
 
 export const metadata = {
     title: 'Land'
 };
 
+export const sql = neon(); // automatically uses env NETLIFY_DATABASE_URL
+export const [players] = await sql`SELECT * FROM players`;
+
 export default async function Page() {
+    
     console.log('players', players);
     return (
         <>
