@@ -14,6 +14,7 @@ export default async function Page() {
     return (
         <>
             <h1 className="mb-8">Land</h1>
+            <p className="mb-4">This is a page that uses the Netlify Database to fetch players.</p>
             {!!players?.length && (
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
                     
