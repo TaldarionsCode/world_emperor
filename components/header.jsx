@@ -16,7 +16,7 @@ export function Header() {
     return (
         <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
             <Link href="/">
-                <Image src={projectEdenLogo} alt="Project Eden logo" style="width: 10%; height: 10%;"/>
+                <Image src={projectEdenLogo} alt="Project Eden logo" width="100"  height="100"  sizes="(max-width: 60px) 100vw, (max-width: 100px) 50vw"/>
             </Link>
             {!!navItems?.length && (
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
